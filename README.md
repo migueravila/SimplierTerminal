@@ -1,5 +1,5 @@
 # SimplierTerminal
-> ###⌨️ My customized and patched build of st 
+> ## ⌨️ My customized and patched build of st 
 
 ![](https://github.com/MiguelRAvila/SimplierTerminal/blob/master/rsc/ss.png)
 
@@ -20,4 +20,4 @@
 
 ### Customization
 
-> #### 🌟 You can customize the *width*, *font* and *colors* in the `config.h` file.
+> #### 🌟 You can customize the *fonts*, *colors* and *padding* in the `config.h` file.
