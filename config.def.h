@@ -60,7 +60,7 @@ static unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "st-256color";
+char *termname = "michiru";
 
 /*
  * spaces per tab
@@ -84,7 +84,7 @@ unsigned int tabspaces = 8;
  * 0xee adds wee bit of transparency.
  * Play with the value to get desired transparency.
  */
-unsigned int alpha = 0xee; 
+unsigned int alpha = 0xdd; 
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
