@@ -1,3 +1,12 @@
+//    _____ _                 _ _        _______                  _             _ 
+//   / ____(_)               | (_)      |__   __|                (_)           | |
+//  | (___  _ _ __ ___  _ __ | |_  ___ _ __| | ___ _ __ _ __ ___  _ _ __   __ _| |
+//   \___ \| | '_ ` _ \| '_ \| | |/ _ \ '__| |/ _ \ '__| '_ ` _ \| | '_ \ / _` | |
+//   ____) | | | | | | | |_) | | |  __/ |  | |  __/ |  | | | | | | | | | | (_| | |
+//  |_____/|_|_| |_| |_| .__/|_|_|\___|_|  |_|\___|_|  |_| |_| |_|_|_| |_|\__,_|_|
+//                     | |                                                        
+//                     |_|                                                        
+
 static char *font = "JetBrains Mono:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
 	"Hack:pixelsize=15:antialias=true:autohint=true",
@@ -5,14 +14,6 @@ static char *font2[] = {
 };
 static int borderpx = 8;
 
-/*
- * What program is execed by st depends of these precedence rules:
- * 1: program passed with -e
- * 2: utmp option
- * 3: SHELL environment variable
- * 4: value of shell in /etc/passwd
- * 5: value of shell in config.h
- */
 static char *shell = "/bin/sh";
 char *utmp = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
@@ -99,13 +100,13 @@ static const char *colorname[] = {
 	"#E5E9F0",
 
 	/* 8 bright colors */
-	"#eaeaea",
+	"#4C566A",
 	"#BF616A",
 	"#A3BE8C",
 	"#EBCB8B",
 	"#81A1C1",
 	"#B48EAD",
-	"#88C0D0",
+	"#8FBCBB",
 	"#ECEFF4",
 
 	[255] = 0,
@@ -113,7 +114,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#1F2229",
 	"#D8DEE9",
-	"#d7d7d7",
+	"#D8DEE9",
 };
 
 /*

@@ -1,3 +1,12 @@
+//    _____ _                 _ _        _______                  _             _ 
+//   / ____(_)               | (_)      |__   __|                (_)           | |
+//  | (___  _ _ __ ___  _ __ | |_  ___ _ __| | ___ _ __ _ __ ___  _ _ __   __ _| |
+//   \___ \| | '_ ` _ \| '_ \| | |/ _ \ '__| |/ _ \ '__| '_ ` _ \| | '_ \ / _` | |
+//   ____) | | | | | | | |_) | | |  __/ |  | |  __/ |  | | | | | | | | | | (_| | |
+//  |_____/|_|_| |_| |_| .__/|_|_|\___|_|  |_|\___|_|  |_| |_| |_|_|_| |_|\__,_|_|
+//                     | |                                                        
+//                     |_|                                                        
+
 static char *font = "JetBrains Mono:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
 	"Hack:pixelsize=14:antialias=true:autohint=true",
@@ -60,7 +69,7 @@ static unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "michiru";
+char *termname = "st-256color";
 
 /*
  * spaces per tab
@@ -89,31 +98,31 @@ unsigned int alpha = 0xdd;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-    "#141414",
-	"#e3593b",
-	"#3bbf7d",
-	"#ffcb6b",
-	"#5eade0",
-	"#935FA7",
-	"#70c1ff",
-	"#eaeaea",
+    "#3B4252",
+	"#BF616A",
+	"#A3BE8C",
+	"#EBCB8B",
+	"#81A1C1",
+	"#B48EAD",
+	"#88C0D0",
+	"#E5E9F0",
 
 	/* 8 bright colors */
-	"#eaeaea",
-	"#e3593b",
-	"#3bbf7d",
-	"#ffe585",
-	"#5eade0",
-	"#935FA7",
-	"#70c1ff",
-	"#ffffff",
+	"#4C566A",
+	"#BF616A",
+	"#A3BE8C",
+	"#EBCB8B",
+	"#81A1C1",
+	"#B48EAD",
+	"#8FBCBB",
+	"#ECEFF4",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#141414",
-	"#eaeaea",
-	"#d7d7d7",
+	"#1F2229",
+	"#D8DEE9",
+	"#D8DEE9",
 };
 
 /*
