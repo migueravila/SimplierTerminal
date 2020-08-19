@@ -12,7 +12,7 @@ static char *font2[] = {
 	"Hack:pixelsize=15:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=15:antialias=true:autohint=true",
 };
-static int borderpx = 8;
+static int borderpx = 5;
 
 static char *shell = "/bin/sh";
 char *utmp = NULL;
@@ -85,7 +85,7 @@ unsigned int tabspaces = 8;
  * 0xee adds wee bit of transparency.
  * Play with the value to get desired transparency.
  */
-unsigned int alpha = 0xdd; 
+unsigned int alpha = 0xcc; 
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -112,7 +112,7 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#2E3440",
+	"#1F2229",
 	"#D8DEE9",
 	"#D8DEE9",
 };
