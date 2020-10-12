@@ -1,7 +1,11 @@
-# SimplierTerminal
-> ## ⌨️ My customized and patched build of st 
+<div align="center">
+<h1>SimplierTerminal: ⌨️ My customized and patched build of st </h1>
+</div>
 
-![](https://github.com/MiguelRAvila/SimplierTerminal/blob/master/rsc/ss.png)
+<p align="center">
+  <img src="https://github.com/MiguelRAvila/SimplierTerminal/blob/master/rsc/preview.png">
+</p>
+
 
 ### Patches
 
