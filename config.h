@@ -91,28 +91,28 @@ unsigned int alpha = 0xdd;
 static const char *colorname[] = {
 	/* 8 normal colors */
     "#1C1B1D",
-	"#DE9DAC",
-	"#9DDEAF",
-	"#DED09D",
-	"#9DACDE",
-	"#AF9DDE",
-	"#9DCCDE",
+	"#E06C75",
+	"#98C379",
+	"#E5C07B",
+	"#61AFEF",
+	"#C678DD",
+	"#56B6C2",
 	"#D8D8D8",
 
 	/* 8 bright colors */
 	"#D8D8D8",
-	"#DE9DAC",
-	"#9DDEAF",
-	"#DED09D",
-	"#9DACDE",
-	"#AF9DDE",
-	"#9DCCDE",
+	"#E06C75",
+	"#98C379",
+	"#E5C07B",
+	"#61AFEF",
+	"#C678DD",
+	"#56B6C2",
 	"#D8D8D8",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#24272a",
+	"#1C1B1D",
 	"#D8D8D8",
 	"#D8D8D8",
 };
