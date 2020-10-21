@@ -1,5 +1,6 @@
 <div align="center">
-<h1>SimplierTerminal: ⌨️ Customized build of St </h1>
+<h1>SimplierTerminal</h1>
+<b>⌨️ Customized build of St</b>
 </div>
 
 <p align="center">
