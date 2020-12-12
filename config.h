@@ -11,6 +11,7 @@ static char *font = "JetBrains Mono:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
 	"Hack:pixelsize=15:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=15:antialias=true:autohint=true",
+	"Iosevka Nerd Font Complete:pixelsize=15:antialias=true:autohint=true"
 };
 static int borderpx = 5;
 
