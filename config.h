@@ -1,19 +1,14 @@
-//    _____ _                 _ _        _______                  _             _
-//   / ____(_)               | (_)      |__   __|                (_)           | |
-//  | (___  _ _ __ ___  _ __ | |_  ___ _ __| | ___ _ __ _ __ ___  _ _ __   __ _| |
-//   \___ \| | '_ ` _ \| '_ \| | |/ _ \ '__| |/ _ \ '__| '_ ` _ \| | '_ \ / _` | |
-//   ____) | | | | | | | |_) | | |  __/ |  | |  __/ |  | | | | | | | | | | (_| | |
-//  |_____/|_|_| |_| |_| .__/|_|_|\___|_|  |_|\___|_|  |_| |_| |_|_|_| |_|\__,_|_|
-//                     | |
-//                     |_|
+// ┌─┐┌┬┐
+// └─┐ │ 
+// └─┘ ┴ 
 
 static char *font = "JetBrains Mono:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
 	"Hack:pixelsize=15:antialias=true:autohint=true",
-	"JoyPixels:pixelsize=15:antialias=true:autohint=true",
+	"Twemoji:pixelsize=15:antialias=true:autohint=true",
 	"Iosevka Nerd Font Complete:pixelsize=15:antialias=true:autohint=true"
 };
-static int borderpx = 5;
+static int borderpx = 10;
 
 static char *shell = "/bin/sh";
 char *utmp = NULL;
@@ -86,36 +81,36 @@ unsigned int tabspaces = 8;
  * 0xee adds wee bit of transparency.
  * Play with the value to get desired transparency.
  */
-unsigned int alpha = 0xdf;
+unsigned int alpha = 0xff;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#1C1B1D",
-	"#E06C75",
-	"#98C379",
-	"#E5C07B",
-	"#61AFEF",
-	"#C678DD",
-	"#56B6C2",
-	"#D8D8D8",
+	"#1a181a",
+	"#f85e84",
+	"#9ecd6f",
+	"#e5c463",
+	"#7accd7",
+	"#ab9df2",
+	"#ef9062",
+	"#e3e1e4",
 
 	/* 8 bright colors */
-	"#D8D8D8",
-	"#E06C75",
-	"#98C379",
-	"#E5C07B",
-	"#61AFEF",
-	"#C678DD",
-	"#56B6C2",
-	"#D8D8D8",
+	"#e3e1e4",
+	"#f85e84",
+	"#9ecd6f",
+	"#e5c463",
+	"#7accd7",
+	"#ab9df2",
+	"#ef9062",
+	"#e3e1e4",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#1C1B1D",
-	"#D8D8D8",
-	"#D8D8D8",
+	"#2d2a2e",
+	"#e3e1e4",
+	"#e3e1e4",
 };
 
 /*
