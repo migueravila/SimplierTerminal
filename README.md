@@ -4,9 +4,8 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/MiguelRAvila/SimplierTerminal/blob/master/rsc/preview.png">
+  <img src="https://github.com/MiguelRAvila/SimplierTerminal/blob/master/assets/head.png">
 </p>
-
 
 ### Patches
 
@@ -25,4 +24,4 @@
 
 ### Customization
 
-> #### 🌟 You can customize the *fonts*, *colors* and *padding* in the `config.h` file.
+> #### 🌟 You can customize the _fonts_, _colors_ and _padding_ in the `config.h` file.
